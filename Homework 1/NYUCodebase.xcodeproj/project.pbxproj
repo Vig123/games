@@ -27,10 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CA695D21E4D10E100EE91D5 /* man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = man.jpg; path = ../../../../man.jpg; sourceTree = "<group>"; };
-		0CA695D41E4D10EB00EE91D5 /* pin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pin.jpg; path = ../../../../pin.jpg; sourceTree = "<group>"; };
-		0CA695D61E4D10F300EE91D5 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../../../../Desktop/games/hw1/ball.png; sourceTree = "<group>"; };
-		0CA695D81E4D110000EE91D5 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = ../../iOS/NYUCodebase/stb_image.h; sourceTree = "<group>"; };
+		0CA695D21E4D10E100EE91D5 /* man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = man.jpg; path = NYUCodebase/man.jpg; sourceTree = SOURCE_ROOT; };
+		0CA695D41E4D10EB00EE91D5 /* pin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pin.jpg; path = NYUCodebase/pin.jpg; sourceTree = SOURCE_ROOT; };
+		0CA695D61E4D10F300EE91D5 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = NYUCodebase/ball.png; sourceTree = SOURCE_ROOT; };
+		0CA695D81E4D110000EE91D5 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
 		6D5A86AA19AE5C710066C1FD /* NYUCodebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYUCodebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5A86AD19AE5C710066C1FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6D5A86B019AE5C710066C1FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
