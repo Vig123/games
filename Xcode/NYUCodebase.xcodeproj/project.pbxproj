@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CD289A31E5B8ADD00BDA260 /* bar1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD289A21E5B8ADD00BDA260 /* bar1.jpg */; };
-		0CD289A61E5B8AE700BDA260 /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD289A41E5B8AE700BDA260 /* ball.jpg */; };
-		0CD289A71E5B8AE700BDA260 /* bar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0CD289A51E5B8AE700BDA260 /* bar2.jpg */; };
+		0C9D2F381E6E3D3A00713EDE /* sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9D2F371E6E3D3A00713EDE /* sheet.png */; };
+		0CFCBB8D1E67B0FA0030CB14 /* letters.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCBB8B1E67B0FA0030CB14 /* letters.png */; };
 		6D5A86AE19AE5C710066C1FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A86AD19AE5C710066C1FD /* Cocoa.framework */; };
 		6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A86B619AE5C710066C1FD /* InfoPlist.strings */; };
 		6D5A86BA19AE5C710066C1FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D5A86B919AE5C710066C1FD /* main.cpp */; };
@@ -27,10 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CD289A21E5B8ADD00BDA260 /* bar1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar1.jpg; sourceTree = "<group>"; };
-		0CD289A41E5B8AE700BDA260 /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball.jpg; sourceTree = "<group>"; };
-		0CD289A51E5B8AE700BDA260 /* bar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar2.jpg; sourceTree = "<group>"; };
-		0CD289A81E5B8B1A00BDA260 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = ../../../../../Desktop/games/hw1/stb_image.h; sourceTree = "<group>"; };
+		0C9D2F371E6E3D3A00713EDE /* sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheet.png; sourceTree = "<group>"; };
+		0C9D2F391E6E41B400713EDE /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		0CFCBB8B1E67B0FA0030CB14 /* letters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letters.png; sourceTree = "<group>"; };
 		6D5A86AA19AE5C710066C1FD /* NYUCodebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYUCodebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5A86AD19AE5C710066C1FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6D5A86B019AE5C710066C1FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -127,9 +125,8 @@
 				6D5A86B519AE5C710066C1FD /* NYUCodebase-Info.plist */,
 				6D5A86B619AE5C710066C1FD /* InfoPlist.strings */,
 				6D5A86BC19AE5C710066C1FD /* Credits.rtf */,
-				0CD289A21E5B8ADD00BDA260 /* bar1.jpg */,
-				0CD289A41E5B8AE700BDA260 /* ball.jpg */,
-				0CD289A51E5B8AE700BDA260 /* bar2.jpg */,
+				0CFCBB8B1E67B0FA0030CB14 /* letters.png */,
+				0C9D2F371E6E3D3A00713EDE /* sheet.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,7 +159,7 @@
 				6DEF23BE1B96CC2600BCE792 /* ShaderProgram.cpp */,
 				6DEF23BF1B96CC2600BCE792 /* ShaderProgram.h */,
 				6DEF23C01B96CC2600BCE792 /* vertex.glsl */,
-				0CD289A81E5B8B1A00BDA260 /* stb_image.h */,
+				0C9D2F391E6E41B400713EDE /* stb_image.h */,
 				6D5A86B919AE5C710066C1FD /* main.cpp */,
 			);
 			name = Code;
@@ -222,13 +219,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
+				0C9D2F381E6E3D3A00713EDE /* sheet.png in Resources */,
+				0CFCBB8D1E67B0FA0030CB14 /* letters.png in Resources */,
 				6DEF23C11B96CC2600BCE792 /* fragment.glsl in Resources */,
 				6DE9D2F11BA6AB8C002D599C /* fragment_textured.glsl in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
-				0CD289A61E5B8AE700BDA260 /* ball.jpg in Resources */,
 				6D5A86BE19AE5C710066C1FD /* Credits.rtf in Resources */,
-				0CD289A71E5B8AE700BDA260 /* bar2.jpg in Resources */,
-				0CD289A31E5B8ADD00BDA260 /* bar1.jpg in Resources */,
 				6DEF23C41B96CC2600BCE792 /* vertex.glsl in Resources */,
 				6DC7076A1BA7273500225B7D /* vertex_textured.glsl in Resources */,
 			);
