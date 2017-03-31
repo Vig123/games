@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C9D2F381E6E3D3A00713EDE /* sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C9D2F371E6E3D3A00713EDE /* sheet.png */; };
-		0CFCBB8D1E67B0FA0030CB14 /* letters.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFCBB8B1E67B0FA0030CB14 /* letters.png */; };
+		0CCA12D41E8C7422006079AA /* characters.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA12D31E8C7422006079AA /* characters.png */; };
+		0CCA12D61E8C7432006079AA /* tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA12D51E8C7432006079AA /* tiles.png */; };
+		0CCA12D81E8DB3FA006079AA /* tiles1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA12D71E8DB3FA006079AA /* tiles1.png */; };
+		0CCA12DA1E8E0187006079AA /* myMap1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CCA12D91E8E0187006079AA /* myMap1.txt */; };
 		6D5A86AE19AE5C710066C1FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5A86AD19AE5C710066C1FD /* Cocoa.framework */; };
 		6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A86B619AE5C710066C1FD /* InfoPlist.strings */; };
 		6D5A86BA19AE5C710066C1FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D5A86B919AE5C710066C1FD /* main.cpp */; };
@@ -26,9 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C9D2F371E6E3D3A00713EDE /* sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheet.png; sourceTree = "<group>"; };
-		0C9D2F391E6E41B400713EDE /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
-		0CFCBB8B1E67B0FA0030CB14 /* letters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letters.png; sourceTree = "<group>"; };
+		0CCA12D21E8C73E6006079AA /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		0CCA12D31E8C7422006079AA /* characters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = characters.png; path = ../../../../../Documents/characters.png; sourceTree = "<group>"; };
+		0CCA12D51E8C7432006079AA /* tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiles.png; path = ../../../../../Documents/tiles.png; sourceTree = "<group>"; };
+		0CCA12D71E8DB3FA006079AA /* tiles1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiles1.png; sourceTree = "<group>"; };
+		0CCA12D91E8E0187006079AA /* myMap1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myMap1.txt; sourceTree = "<group>"; };
 		6D5A86AA19AE5C710066C1FD /* NYUCodebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYUCodebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5A86AD19AE5C710066C1FD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6D5A86B019AE5C710066C1FD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -125,8 +129,10 @@
 				6D5A86B519AE5C710066C1FD /* NYUCodebase-Info.plist */,
 				6D5A86B619AE5C710066C1FD /* InfoPlist.strings */,
 				6D5A86BC19AE5C710066C1FD /* Credits.rtf */,
-				0CFCBB8B1E67B0FA0030CB14 /* letters.png */,
-				0C9D2F371E6E3D3A00713EDE /* sheet.png */,
+				0CCA12D91E8E0187006079AA /* myMap1.txt */,
+				0CCA12D31E8C7422006079AA /* characters.png */,
+				0CCA12D51E8C7432006079AA /* tiles.png */,
+				0CCA12D71E8DB3FA006079AA /* tiles1.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,8 +165,8 @@
 				6DEF23BE1B96CC2600BCE792 /* ShaderProgram.cpp */,
 				6DEF23BF1B96CC2600BCE792 /* ShaderProgram.h */,
 				6DEF23C01B96CC2600BCE792 /* vertex.glsl */,
-				0C9D2F391E6E41B400713EDE /* stb_image.h */,
 				6D5A86B919AE5C710066C1FD /* main.cpp */,
+				0CCA12D21E8C73E6006079AA /* stb_image.h */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -219,9 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
-				0C9D2F381E6E3D3A00713EDE /* sheet.png in Resources */,
-				0CFCBB8D1E67B0FA0030CB14 /* letters.png in Resources */,
+				0CCA12DA1E8E0187006079AA /* myMap1.txt in Resources */,
+				0CCA12D61E8C7432006079AA /* tiles.png in Resources */,
+				0CCA12D81E8DB3FA006079AA /* tiles1.png in Resources */,
 				6DEF23C11B96CC2600BCE792 /* fragment.glsl in Resources */,
+				0CCA12D41E8C7422006079AA /* characters.png in Resources */,
 				6DE9D2F11BA6AB8C002D599C /* fragment_textured.glsl in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
 				6D5A86BE19AE5C710066C1FD /* Credits.rtf in Resources */,
